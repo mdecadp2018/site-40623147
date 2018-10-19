@@ -1,9 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>機械設計工程系 2018 Fall 分組網誌</title><link href="https://mdecadp2018.github.io/site-40623147/blog/" rel="alternate"></link><link href="https://mdecadp2018.github.io/site-40623147/blog/feeds/all.atom.xml" rel="self"></link><id>https://mdecadp2018.github.io/site-40623147/blog/</id><updated>2018-10-05T11:24:00+08:00</updated><entry><title>20181005網誌測試</title><link href="https://mdecadp2018.github.io/site-40623147/blog/40623147-blog.html" rel="alternate"></link><published>2018-10-05T11:24:00+08:00</published><updated>2018-10-05T11:24:00+08:00</updated><author><name>40623147</name></author><id>tag:mdecadp2018.github.io,2018-10-05:/site-40623147/blog/40623147-blog.html</id><summary type="html">&lt;p&gt;測試網誌增新內容、近端、遠端的實作測試及Onshape操作學習。&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>機械設計工程系 2018 Fall 分組網誌</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2018-10-19T11:11:00+08:00</updated><entry><title>20181019 WEEK6</title><link href="./40623147-blog-2.html" rel="alternate"></link><published>2018-10-19T11:11:00+08:00</published><updated>2018-10-19T11:11:00+08:00</updated><author><name>40623147</name></author><id>tag:None,2018-10-19:./40623147-blog-2.html</id><summary type="html">&lt;p&gt;WEEK6 學習如何除錯&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;WEEK6 學習如何除錯&lt;/p&gt;
+
+
+&lt;h2&gt;發現問題:&lt;/h2&gt;
+&lt;p&gt;一開始近端無法推上去,顯示
+Error response
+Error code: 404&lt;/p&gt;
+&lt;p&gt;Message: File not found.&lt;/p&gt;
+&lt;p&gt;Error code explanation: HTTPStatus.NOT_FOUND - Nothing matches the given URI.&lt;/p&gt;
+&lt;h2&gt;解決問題:&lt;/h2&gt;
+&lt;p&gt;Title: 20181019 WEEK6&lt;/p&gt;
+&lt;p&gt;Date: 2018-10-19 11:11&lt;/p&gt;
+&lt;p&gt;Category: Misc&lt;/p&gt;
+&lt;p&gt;Tags: 2018Fall&lt;/p&gt;
+&lt;p&gt;Slug: 40623147-blog-2   &amp;lt;------跟上一篇的Slug重複,改成其他的即可&lt;/p&gt;
+&lt;p&gt;Author: 40623147&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>20181012 WEEK5</title><link href="./40623147-blog-1.html" rel="alternate"></link><published>2018-10-12T11:10:00+08:00</published><updated>2018-10-12T11:10:00+08:00</updated><author><name>40623147</name></author><id>tag:None,2018-10-12:./40623147-blog-1.html</id><summary type="html">&lt;p&gt;WEEK5 OnShape畫圖&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;WEEK5 OnShape畫圖&lt;/p&gt;
+
+
+&lt;p&gt;123&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>20181005 WEEK4 網誌測試</title><link href="./40623147-blog.html" rel="alternate"></link><published>2018-10-05T11:24:00+08:00</published><updated>2018-10-05T11:24:00+08:00</updated><author><name>40623147</name></author><id>tag:None,2018-10-05:./40623147-blog.html</id><summary type="html">&lt;p&gt;測試網誌增新內容、近端、遠端的實作測試及Onshape操作學習。&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;測試網誌增新內容、近端、遠端的實作測試及Onshape操作學習。&lt;/p&gt;
 
 
-&lt;p&gt;今日重點學習Onshape得使用與操作,&lt;a href="http://mde.tw/cadp2018/content/OnshapeWeek%201.html"&gt;Onshape操作手冊&lt;/a&gt;它的內容是全英文的,所以一定會遇到一些得不懂生字,這時就可以用&lt;a href="https://www.merriam-webster.com/"&gt;全英字典&lt;/a&gt;來找到自己不會的單字,全英也可以直接性的增加自己閱讀英文的能力,好處很多不僅增加自己的單字量又加強英文閱讀的能力,英文這項技能是不可或缺,早點學好便可提高自己的價值,這樣就可以比同年的同學們領先許多。&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>2018 Fall 分組網誌</title><link href="https://mdecadp2018.github.io/site-40623147/blog/2018-Fall-Project-Blog.html" rel="alternate"></link><published>2018-09-10T11:00:00+08:00</published><updated>2018-09-10T11:00:00+08:00</updated><author><name>NFUMDE</name></author><id>tag:mdecadp2018.github.io,2018-09-10:/site-40623147/blog/2018-Fall-Project-Blog.html</id><summary type="html">&lt;p&gt;2018 Fall 開始將網際內容管理、投影片與網誌進行整合.&lt;/p&gt;
+&lt;p&gt;今日重點學習Onshape得使用與操作,&lt;a href="http://mde.tw/cadp2018/content/OnshapeWeek%201.html"&gt;Onshape操作手冊&lt;/a&gt;它的內容是全英文的,所以一定會遇到一些得不懂生字,這時就可以用&lt;a href="https://www.merriam-webster.com/"&gt;全英字典&lt;/a&gt;來找到自己不會的單字,全英也可以直接性的增加自己閱讀英文的能力,好處很多不僅增加自己的單字量又加強英文閱讀的能力,英文這項技能是不可或缺,早點學好便可提高自己的價值,這樣就可以比同年的同學們領先許多。&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>2018 Fall 分組網誌</title><link href="./2018-Fall-Project-Blog.html" rel="alternate"></link><published>2018-09-10T11:00:00+08:00</published><updated>2018-09-10T11:00:00+08:00</updated><author><name>NFUMDE</name></author><id>tag:None,2018-09-10:./2018-Fall-Project-Blog.html</id><summary type="html">&lt;p&gt;2018 Fall 開始將網際內容管理、投影片與網誌進行整合.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2018 Fall 開始將網際內容管理、投影片與網誌進行整合.&lt;/p&gt;
 
 
