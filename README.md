@@ -3,8 +3,8 @@
 
 http://mdecourse.github.io/2018fall/
 
-分組示範倉儲: https://github.com/scrum-1/scrum-1.github.io
+倉儲: https://mdecadp2018.github.io/site-40623147/content/index.html
 
-設定步驟: https://github.com/scrum-1/scrum-1.github.io/wiki
+投影片: https://mdecadp2018.github.io/site-40623147/reveal/index.html
 
-cpgx 網站: https://cpgx.kmol.info
+Blog: https://mdecadp2018.github.io/site-40623147/blog/index.html
