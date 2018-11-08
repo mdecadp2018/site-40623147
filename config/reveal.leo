@@ -24,8 +24,32 @@
 <v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
-<v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
+<v t="leo.20180827201621.11" a="E"><vh>week1</vh>
+<v t="leo.20180827201621.12"><vh>內容</vh></v>
+</v>
+<v t="leo.20181108215021.1" a="E"><vh>week2</vh>
+<v t="leo.20181108215021.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20181108215023.1" a="E"><vh>week3</vh>
+<v t="leo.20181108215023.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20181108215024.1" a="E"><vh>week4</vh>
+<v t="leo.20181108215024.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20181108215024.3" a="E"><vh>week5</vh>
+<v t="leo.20181108215024.4"><vh>內容</vh></v>
+</v>
+<v t="leo.20181108215024.5" a="E"><vh>week6</vh>
+<v t="leo.20181108215024.6"><vh>內容</vh></v>
+</v>
+<v t="leo.20181108215101.1" a="E"><vh>week7</vh>
+<v t="leo.20181108215101.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20181108215101.3" a="E"><vh>week8</vh>
+<v t="leo.20181108215101.4"><vh>內容</vh></v>
+</v>
+<v t="leo.20181108214909.1"><vh>快捷鍵</vh>
+<v t="leo.20181108214909.2"><vh>投影片快捷鍵</vh></v>
 </v>
 <v t="leo.20180827201621.13"><vh>各式內容引用範例</vh>
 <v t="leo.20180827201621.14" a="E"><vh>導入數學符號與方程式</vh>
@@ -129,13 +153,16 @@ vertical: body pane on the botton</t>
 ### 虎科大機械設計工程系
 
 &lt;small&gt;
-Created by [KMOLab](http://lab.kmol.info/)
+Created by [40623147](https://github.com/mdecadp2018/site-40623147)
 &lt;/small&gt;
 
-[2018 Fall 分組網誌](./../blog/index.html)
+[倉儲](https://github.com/mdecadp2018/site-40623147)
 
+[網站](https://mdecadp2018.github.io/site-40623147)
 
-</t>
+[部落格]( https://mdecadp2018.github.io/site-40623147/blog)
+
+[投影片](https://mdecadp2018.github.io/site-40623147/reveal)</t>
 <t tx="leo.20180827201621.11">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -145,16 +172,9 @@ Created by [KMOLab](http://lab.kmol.info/)
 
 						
 </t>
-<t tx="leo.20180827201621.12"># 投影片快捷鍵
+<t tx="leo.20180827201621.12">### Week 1
 
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
-
-</t>
+登入 Github 帳號後, 連結至 https://classroom.github.com/a/fGqXU9kO 以領取個人的期中作業, 各學員期中成績以每週放入此個人網站之操作影片、CMSimfly、reveal 簡報、pelican 網誌與倉儲歷程記錄作為自評依據。</t>
 <t tx="leo.20180827201621.13">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -326,5 +346,129 @@ make.start()
 
 						
 </t>
+<t tx="leo.20181108214909.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181108214909.2"># 投影片快捷鍵
+
+* 利用箭頭上下前後換頁
+* 按 f 鍵進入全螢幕模式 (full screen)
+* 按 s 鍵可以顯示投影片筆記 (show)
+* 按 o 鍵可以切換單張或全域檢視 (overview)
+* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
+* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+
+</t>
+<t tx="leo.20181108215021.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181108215021.2">### Week 2
+
+學習怎麼切換分支,git checkout gh-pages ---&gt;用來改分支的,再用git branch 查看是否有更改成功,第二個方法在自己的倉儲,按下settings---&gt;Branches---&gt;把master的地方改成gh-pages按下儲存即可。
+git clone 作業倉儲至近端後, 著手將練習 Onshape 的各項過程資料存入 CMSimfly, Reveal.js 與 Pelican Blog 中。
+</t>
+<t tx="leo.20181108215023.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181108215023.2">### Week 3
+
+這週學習的是git的基本操作讓我們試試Github功能，像git branch--查看目前在哪個分支上、git log --oneline --graph --all --顯示出一行然後用圖形表示的全部分支、git checkout xx--換成在xx分支上、git merge--版次合併 等等。</t>
+<t tx="leo.20181108215024.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181108215024.2">### Week 4
+
+學習Onshape得使用與操作,Onshape操作手冊它的內容是全英文的,所以一定會遇到一些得不懂生字,這時就可以用全英字典來找到自己不會的單字,全英也可以直接性的增加自己閱讀英文的能力,好處很多不僅增加自己的單字量又加強英文閱讀的能力,英文這項技能是不可或缺,早點學好便可提高自己的價值,這樣就可以比同年的同學們領先許多。</t>
+<t tx="leo.20181108215024.3">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181108215024.4">### Week 5
+
+* OnShape的Part Studiod可以放入更多零件與變數功能</t>
+<t tx="leo.20181108215024.5">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181108215024.6">### Week 6
+
+*記錄下自己哪有些步驟做錯,然後發現問題,並且把問題解決掉。
+
+*Slug 不可跟其他篇的Slug重複,改成其他的即可。
+</t>
+<t tx="leo.20181108215101.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181108215101.2">### Week 7
+
+在教修改網路設定把 網路修改: 到設定--&gt;網路和網際網路--&gt;乙太網路2--&gt;IPv4更改DNS
+在使用DNS伺服器位置輸入:
+
+ 140.130.17.3 
+
+140.130.1.2
+
+網際網路通訊協定第6版(IPv6):
+
+2001:288:6004:17::3  系上
+
+2001:288:6004:1::2  學校
+
+ 2001:b000:168::1 hinet
+
+
+</t>
+<t tx="leo.20181108215101.3">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181108215101.4">### Week 8
+
+找六名組員,用雲端的方式協同作專案,OnShape就是雲端的一種協同做圖,然後開始作圖把組合件繪製完成後, 用Lua或Python讓組合建會作動,協同做出專題。</t>
 </tnodes>
 </leo_file>

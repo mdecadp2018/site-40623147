@@ -12,7 +12,14 @@
 &lt;h2&gt;心得:&lt;/h2&gt;
 &lt;p&gt;這週的內容是在教修改網路設定把
 網路修改:
-到設定--&amp;gt;網路和網際網路--&amp;gt;乙太網路2--&amp;gt;IPv4更改DNS&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>20181019 Week6</title><link href="https://mdecadp2018.github.io/site-40623147/blog/40623147-blog-6.html" rel="alternate"></link><published>2018-10-19T11:11:00+08:00</published><updated>2018-10-19T11:11:00+08:00</updated><author><name>40623147</name></author><id>tag:mdecadp2018.github.io,2018-10-19:/site-40623147/blog/40623147-blog-6.html</id><summary type="html">&lt;p&gt;Week6 學習如何除錯&lt;/p&gt;
+到設定--&amp;gt;網路和網際網路--&amp;gt;乙太網路2--&amp;gt;IPv4更改DNS&lt;/p&gt;
+&lt;p&gt;在使用DNS伺服器位置輸入:&lt;/p&gt;
+&lt;p&gt;140.130.17.3 &lt;/p&gt;
+&lt;p&gt;140.130.1.2&lt;/p&gt;
+&lt;p&gt;網際網路通訊協定第6版(IPv6):&lt;/p&gt;
+&lt;p&gt;2001:288:6004:17::3  系上&lt;/p&gt;
+&lt;p&gt;2001:288:6004:1::2  學校&lt;/p&gt;
+&lt;p&gt;2001:b000:168::1 hinet&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>20181019 Week6</title><link href="https://mdecadp2018.github.io/site-40623147/blog/40623147-blog-6.html" rel="alternate"></link><published>2018-10-19T11:11:00+08:00</published><updated>2018-10-19T11:11:00+08:00</updated><author><name>40623147</name></author><id>tag:mdecadp2018.github.io,2018-10-19:/site-40623147/blog/40623147-blog-6.html</id><summary type="html">&lt;p&gt;Week6 學習如何除錯&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;Week6 學習如何除錯&lt;/p&gt;
 
 
@@ -61,7 +68,7 @@ Error code: 404&lt;/p&gt;
 
 
 &lt;h2&gt;心得:&lt;/h2&gt;
-&lt;p&gt;這週學習的是&lt;a href="https://www.youtube.com/watch?v=158Ir6Mni60"&gt;git的基本操作&lt;/a&gt;讓我們試試Github功能，像git branch--查看目前在哪個分支上、git log --oneline --graph --all  --顯示出一行然後用圖形表示的全部分支、git checkout xx--換成在xx分支上、git merge--版次合併 等等，&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>20180921 Week2</title><link href="https://mdecadp2018.github.io/site-40623147/blog/40623147-blog-2.html" rel="alternate"></link><published>2018-09-21T10:24:00+08:00</published><updated>2018-09-21T10:24:00+08:00</updated><author><name>40623147</name></author><id>tag:mdecadp2018.github.io,2018-09-21:/site-40623147/blog/40623147-blog-2.html</id><summary type="html">&lt;p&gt;Week2 改分支&lt;/p&gt;
+&lt;p&gt;這週學習的是&lt;a href="https://www.youtube.com/watch?v=158Ir6Mni60"&gt;git的基本操作&lt;/a&gt;讓我們試試Github功能，像git branch--查看目前在哪個分支上、git log --oneline --graph --all  --顯示出一行然後用圖形表示的全部分支、git checkout xx--換成在xx分支上、git merge--版次合併 等等。&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>20180921 Week2</title><link href="https://mdecadp2018.github.io/site-40623147/blog/40623147-blog-2.html" rel="alternate"></link><published>2018-09-21T10:24:00+08:00</published><updated>2018-09-21T10:24:00+08:00</updated><author><name>40623147</name></author><id>tag:mdecadp2018.github.io,2018-09-21:/site-40623147/blog/40623147-blog-2.html</id><summary type="html">&lt;p&gt;Week2 改分支&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;Week2 改分支&lt;/p&gt;
 
 
