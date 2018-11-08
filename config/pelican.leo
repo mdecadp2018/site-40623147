@@ -87,8 +87,11 @@
 <v t="leo.20181019112117.1" a="E"><vh>20181019第六週</vh>
 <v t="leo.20181019112117.2"><vh>@edit 20181019.md</vh></v>
 </v>
-<v t="leo.20181026103606.1" a="E"><vh>20181026第七週</vh>
+<v t="leo.20181026103606.1"><vh>20181026第七週</vh>
 <v t="leo.20181026103606.2"><vh>@edit 20181026.md</vh></v>
+</v>
+<v t="leo.20181108210652.1" a="E"><vh>20181102第八週</vh>
+<v t="leo.20181108210652.2"><vh>@edit 20181102.md</vh></v>
 </v>
 </v>
 </v>
@@ -127,6 +130,7 @@ g.es("admin pelican Github 執行完畢")
 <t tx="leo.20181026103927.1"></t>
 <t tx="leo.20181026104636.1"></t>
 <t tx="leo.20181026104840.1"></t>
+<t tx="leo.20181108210652.1"></t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
