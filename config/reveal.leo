@@ -384,8 +384,7 @@ make.start()
 </t>
 <t tx="leo.20181108215023.2">### 手足球鍵盤雙人對打
 
-&lt;iframe src="https://www.youtube.com/watch?v=HMxE2W__NSw" scrolling="no" frameborder="0" width="100%" height="430" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"&gt;&lt;/iframe&gt;
-</t>
+&lt;iframe  width="425" height="344" src="https://www.youtube.com/watch?v=HMxE2W__NSw" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20181108215024.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -397,9 +396,7 @@ make.start()
 </t>
 <t tx="leo.20181108215024.2">### 手足球單人與電腦對打
 
-&lt;iframe src="https://www.youtube.com/watch?v=xrZTpb-zHjg" scrolling="no" frameborder="0" width="100%" height="430" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"&gt;&lt;/iframe&gt;
-
-</t>
+&lt;iframe  width="425" height="344" src="https://www.youtube.com/watch?v=xrZTpb-zHjg" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20181108215024.3">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -411,8 +408,7 @@ make.start()
 </t>
 <t tx="leo.20181108215024.4">### 手足球電腦對打
 
-&lt;iframe src="https://www.youtube.com/watch?v=TNwF50VOqRE" scrolling="no" frameborder="0" width="100%" height="430" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"&gt;&lt;/iframe&gt;
-</t>
+&lt;iframe  width="425" height="344" src="https://www.youtube.com/watch?v=TNwF50VOqRE" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20181108215024.5">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
