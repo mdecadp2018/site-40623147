@@ -61,11 +61,9 @@ $(function(){
 
 </ul>
 </confmenu></header>
-<div class='container'><nav><ul id='css3menu1' class='topmenu'><li><a href='簡介.html'>簡介</a><li><a href='期末課程內容.html'>期末課程內容</a><ul><li><a href='程式模擬.html'>程式模擬</a><ul><li><a href='鍵盤雙人對打.html'>鍵盤雙人對打</a><li><a href='單人與電腦對打.html'>單人與電腦對打</a><li><a href='電腦對打.html'>電腦對打</a></li></ul></nav><section>鍵盤雙人對打 << <a href='鍵盤雙人對打.html'>Previous</a> <a href='電腦對打.html'>Next</a> >> 電腦對打<br /><h1>單人與電腦對打</h1>
+<div class='container'><nav><ul id='css3menu1' class='topmenu'><li><a href='簡介.html'>簡介</a><li><a href='期末課程內容.html'>期末課程內容</a><ul><li><a href='程式模擬.html'>程式模擬</a><ul><li><a href='鍵盤雙人對打.html'>鍵盤雙人對打</a><li><a href='單人與電腦對打.html'>單人與電腦對打</a><li><a href='電腦對打.html'>電腦對打</a></li></ul></nav><section>單人與電腦對打 << <a href='單人與電腦對打.html'>Previous</a> <br /><h1>電腦對打</h1>
 <pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">import vrep
 import sys, math
-import keyboard 
-#導入鍵盤
 # child threaded script: 
 # 內建使用 port 19997 若要加入其他 port, 在  serve 端程式納入
 #simExtRemoteApiStart(19999)
@@ -95,29 +93,20 @@ vrep.simxSetJointTargetVelocity(clientID,lmo_handle,0,vrep.simx_opmode_oneshot_w
 vrep.simxSetJointTargetVelocity(clientID,lrev_handle,0,vrep.simx_opmode_oneshot_wait)
    
 
-def a1():
-    errorCode=vrep.simxSetJointTargetVelocity(clientID,lmo_handle,-0.2,vrep.simx_opmode_oneshot_wait)
-def d1():    
-    errorCode=vrep.simxSetJointTargetVelocity(clientID,lmo_handle,0.2,vrep.simx_opmode_oneshot_wait)
-def w1():    
-     errorCode=vrep.simxSetJointTargetVelocity(clientID,lrev_handle,R_KickBallVel,vrep.simx_opmode_oneshot_wait)
-def s1():
-     errorCode=vrep.simxSetJointTargetVelocity(clientID,lrev_handle,B_KickBallVel,vrep.simx_opmode_oneshot_wait)
-def x1():    
-    errorCode=vrep.simxSetJointTargetVelocity(clientID,lmo_handle,0,vrep.simx_opmode_oneshot_wait)
-#定義平移軸及旋轉軸的速度
 
-#def speed(handle,speed):
-    #errorCode=vrep.simxSetJointTargetVelocity(clientID,handle,speed,vrep.simx_opmode_oneshot_wait)
+#定義平移軸及旋轉軸的速度
 
 def start():
     errorCode=vrep.simxStartSimulation(clientID,vrep.simx_opmode_oneshot_wait)
  
 def getballposition():
     errorCode,position_BR=vrep.simxGetObjectPosition(clientID,rrov_handle,-1,vrep.simx_opmode_oneshot)
+    errorCode,position_B1R=vrep.simxGetObjectPosition(clientID,lrov_handle,-1,vrep.simx_opmode_oneshot)
     errorCode,position_S=vrep.simxGetObjectPosition(clientID,Sphere_handle,-1,vrep.simx_opmode_oneshot)
     vv =position_S[1] - position_BR[1]
     vvv =position_S[0] - position_BR[0]
+    Bvv =position_S[1] - position_B1R[1]
+    Bvvv =position_S[0] - position_B1R[0]
 
     
     while True:
@@ -148,26 +137,43 @@ def getballposition():
             vv =position_S[1]- position_BR[1]
             vvv =position_S[0] - position_BR[0]
             vrep.simxSetJointTargetVelocity(clientID,rrev_handle,R_KickBallVel,vrep.simx_opmode_oneshot_wait)
-        try:
-            if keyboard.is_pressed('a'):
-                a1()
-            elif keyboard.is_pressed('d'):
-                d1()
-            elif keyboard.is_pressed('w'):
-                w1()
-            elif keyboard.is_pressed('s'):    
-                s1()
-            elif keyboard.is_pressed('x'):    
-                x1()
-            else:
-                pass
-        except:
-            break
+        if Bvv &lt;= 0 and Bvvv &gt; -0.04:
+            errorCode,position_B1R=vrep.simxGetObjectPosition(clientID,lrov_handle,-1,vrep.simx_opmode_oneshot)
+            errorCode,position_S=vrep.simxGetObjectPosition(clientID,Sphere_handle,-1,vrep.simx_opmode_oneshot)
+            Bvv =position_S[1]- position_B1R[1]
+            Bvvv =position_S[0] - position_B1R[0]
+            vrep.simxSetJointTargetVelocity(clientID,lrev_handle,R_KickBallVel,vrep.simx_opmode_oneshot_wait)
+          
+        elif Bvv &gt; 0 and Bvvv &gt; -0.04:
+            errorCode,position_B1R=vrep.simxGetObjectPosition(clientID,lrov_handle,-1,vrep.simx_opmode_oneshot)
+            errorCode,position_S=vrep.simxGetObjectPosition(clientID,Sphere_handle,-1,vrep.simx_opmode_oneshot)
+            Bvv =position_S[1]- position_B1R[1]
+            Bvvv =position_S[0] - position_B1R[0]
+            vrep.simxSetJointTargetVelocity(clientID,lrev_handle,R_KickBallVel,vrep.simx_opmode_oneshot_wait)
+              
+        elif Bvv &lt;= 0 and Bvvv &lt; -0.04:
+            errorCode,position_B1R=vrep.simxGetObjectPosition(clientID,lrov_handle,-1,vrep.simx_opmode_oneshot)
+            errorCode,position_S=vrep.simxGetObjectPosition(clientID,Sphere_handle,-1,vrep.simx_opmode_oneshot)
+            Bvv =position_S[1]- position_B1R[1]
+            Bvvv =position_S[0] - position_B1R[0]
+            vrep.simxSetJointTargetVelocity(clientID,lrev_handle,B_KickBallVel,vrep.simx_opmode_oneshot_wait)
+          
+        elif Bvv &gt; 0 and Bvvv &lt; -0.04:
+            errorCode,position_B1R=vrep.simxGetObjectPosition(clientID,lrov_handle,-1,vrep.simx_opmode_oneshot)
+            errorCode,position_S=vrep.simxGetObjectPosition(clientID,Sphere_handle,-1,vrep.simx_opmode_oneshot)
+            Bvv =position_S[1]- position_B1R[1]
+            Bvvv =position_S[0] - position_B1R[0]
+            vrep.simxSetJointTargetVelocity(clientID,lrev_handle,B_KickBallVel,vrep.simx_opmode_oneshot_wait)    
+            
+        else:
+            pass
         Mv = vv*2.3
+        Mv = Bvv*2.3
         vrep.simxSetJointTargetVelocity(clientID,rmo_handle,Mv,vrep.simx_opmode_oneshot_wait)
+        vrep.simxSetJointTargetVelocity(clientID,lmo_handle,Mv,vrep.simx_opmode_oneshot_wait)
 
 start()
 getballposition()  
 
 #執行按建</pre>
-<br />鍵盤雙人對打 << <a href='鍵盤雙人對打.html'>Previous</a> <a href='電腦對打.html'>Next</a> >> 電腦對打</section></div></body></html>
+<p></p><br />單人與電腦對打 << <a href='單人與電腦對打.html'>Previous</a> </section></div></body></html>
