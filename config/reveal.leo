@@ -371,7 +371,7 @@ make.start()
 </t>
 <t tx="leo.20181108215021.2">### Week 13
 
-*討論要使用python語法，還是使用Lua語法
+* 討論要使用python語法，還是使用Lua語法
 </t>
 <t tx="leo.20181108215023.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -384,7 +384,7 @@ make.start()
 </t>
 <t tx="leo.20181108215023.2">### 手足球鍵盤雙人對打
 
-&lt;iframe  width="425" height="344" src="https://www.youtube.com/watch?v=HMxE2W__NSw" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;iframe width="755" height="409" src="https://www.youtube.com/embed/HMxE2W__NSw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20181108215024.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -396,7 +396,7 @@ make.start()
 </t>
 <t tx="leo.20181108215024.2">### 手足球單人與電腦對打
 
-&lt;iframe  width="425" height="344" src="https://www.youtube.com/watch?v=xrZTpb-zHjg" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;iframe width="727" height="409" src="https://www.youtube.com/embed/xrZTpb-zHjg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20181108215024.3">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -408,7 +408,7 @@ make.start()
 </t>
 <t tx="leo.20181108215024.4">### 手足球電腦對打
 
-&lt;iframe  width="425" height="344" src="https://www.youtube.com/watch?v=TNwF50VOqRE" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;iframe width="768" height="409" src="https://www.youtube.com/embed/TNwF50VOqRE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20181108215024.5">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -420,7 +420,7 @@ make.start()
 </t>
 <t tx="leo.20181108215024.6">### 期末簡報影片
 
-&lt;iframe src="https://www.youtube.com/watch?v=D9BBDskCB3A&amp;feature=youtu.be" scrolling="no" frameborder="0" width="100%" height="430" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"&gt;&lt;/iframe&gt;
+&lt;iframe width="768" height="409" src="https://www.youtube.com/embed/D9BBDskCB3A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 </t>
 <t tx="leo.20181108215101.1">&lt;section data-markdown&gt;
