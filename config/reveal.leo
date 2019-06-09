@@ -42,10 +42,10 @@
 <v t="leo.20181108215024.5" a="E"><vh>week6</vh>
 <v t="leo.20181108215024.6"><vh>內容</vh></v>
 </v>
-<v t="leo.20181108215101.1" a="E"><vh>week7</vh>
+<v t="leo.20181108215101.1" a="E"><vh>score</vh>
 <v t="leo.20181108215101.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20181108215101.3" a="E"><vh>week8</vh>
+<v t="leo.20181108215101.3" a="E"><vh>end</vh>
 <v t="leo.20181108215101.4"><vh>內容</vh></v>
 </v>
 <v t="leo.20181108214909.1"><vh>快捷鍵</vh>
@@ -382,9 +382,8 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181108215023.2">### Week 3
+<t tx="leo.20181108215023.2">### Week 
 
-這週學習的是git的基本操作讓我們試試Github功能，像git branch--查看目前在哪個分支上、git log --oneline --graph --all --顯示出一行然後用圖形表示的全部分支、git checkout xx--換成在xx分支上、git merge--版次合併 等等。
 
 </t>
 <t tx="leo.20181108215024.1">&lt;section data-markdown&gt;
@@ -398,7 +397,7 @@ make.start()
 </t>
 <t tx="leo.20181108215024.2">### Week 4
 
-學習Onshape得使用與操作,Onshape操作手冊它的內容是全英文的,所以一定會遇到一些得不懂生字,這時就可以用全英字典來找到自己不會的單字,全英也可以直接性的增加自己閱讀英文的能力,好處很多不僅增加自己的單字量又加強英文閱讀的能力,英文這項技能是不可或缺,早點學好便可提高自己的價值,這樣就可以比同年的同學們領先許多。
+
 
 </t>
 <t tx="leo.20181108215024.3">&lt;section data-markdown&gt;
@@ -412,7 +411,6 @@ make.start()
 </t>
 <t tx="leo.20181108215024.4">### Week 5
 
-* OnShape的Part Studiod可以放入更多零件與變數功能
 
 </t>
 <t tx="leo.20181108215024.5">&lt;section data-markdown&gt;
@@ -426,9 +424,6 @@ make.start()
 </t>
 <t tx="leo.20181108215024.6">### Week 6
 
-*記錄下自己哪有些步驟做錯,然後發現問題,並且把問題解決掉。
-
-*Slug 不可跟其他篇的Slug重複,改成其他的即可。
 </t>
 <t tx="leo.20181108215101.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
