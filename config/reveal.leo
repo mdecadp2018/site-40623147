@@ -30,16 +30,16 @@
 <v t="leo.20181108215021.1" a="E"><vh>week13</vh>
 <v t="leo.20181108215021.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20181108215023.1" a="E"><vh>week14</vh>
+<v t="leo.20181108215023.1" a="E"><vh>pp</vh>
 <v t="leo.20181108215023.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20181108215024.1" a="E"><vh>week4</vh>
+<v t="leo.20181108215024.1" a="E"><vh>cp</vh>
 <v t="leo.20181108215024.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20181108215024.3" a="E"><vh>week5</vh>
+<v t="leo.20181108215024.3" a="E"><vh>cc</vh>
 <v t="leo.20181108215024.4"><vh>內容</vh></v>
 </v>
-<v t="leo.20181108215024.5" a="E"><vh>week6</vh>
+<v t="leo.20181108215024.5" a="E"><vh>final video</vh>
 <v t="leo.20181108215024.6"><vh>內容</vh></v>
 </v>
 <v t="leo.20181108215101.1" a="E"><vh>score</vh>
@@ -382,9 +382,9 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181108215023.2">### Week 
+<t tx="leo.20181108215023.2">### 手足球鍵盤雙人對打
 
-
+&lt;iframe src="https://www.youtube.com/watch?v=HMxE2W__NSw" scrolling="no" frameborder="0" width="100%" height="430" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"&gt;&lt;/iframe&gt;
 </t>
 <t tx="leo.20181108215024.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -395,9 +395,9 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181108215024.2">### Week 4
+<t tx="leo.20181108215024.2">### 手足球單人與電腦對打
 
-
+&lt;iframe src="https://www.youtube.com/watch?v=xrZTpb-zHjg" scrolling="no" frameborder="0" width="100%" height="430" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"&gt;&lt;/iframe&gt;
 
 </t>
 <t tx="leo.20181108215024.3">&lt;section data-markdown&gt;
@@ -409,9 +409,9 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181108215024.4">### Week 5
+<t tx="leo.20181108215024.4">### 手足球電腦對打
 
-
+&lt;iframe src="https://www.youtube.com/watch?v=TNwF50VOqRE" scrolling="no" frameborder="0" width="100%" height="430" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"&gt;&lt;/iframe&gt;
 </t>
 <t tx="leo.20181108215024.5">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -422,7 +422,9 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181108215024.6">### Week 6
+<t tx="leo.20181108215024.6">### 期末簡報影片
+
+&lt;iframe src="https://www.youtube.com/watch?v=D9BBDskCB3A&amp;feature=youtu.be" scrolling="no" frameborder="0" width="100%" height="430" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"&gt;&lt;/iframe&gt;
 
 </t>
 <t tx="leo.20181108215101.1">&lt;section data-markdown&gt;
