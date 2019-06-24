@@ -61,65 +61,61 @@ $(function(){
 
 </ul>
 </confmenu></header>
-<div class='container'><nav><ul id='css3menu1' class='topmenu'><li><a href='簡介.html'>簡介</a><li><a href='期末彈珠檯.html'>期末彈珠檯</a><ul><li><a href='零件繪製.html'>零件繪製</a><li><a href='影片.html'>影片</a><li><a href='影片操作過程及程式版本二.html'>影片操作過程及程式版本二</a></li></ul><li><a href='期末課程內容.html'>期末課程內容</a><ul><li><a href='程式模擬.html'>程式模擬</a><ul><li><a href='鍵盤雙人對打.html'>鍵盤雙人對打</a><li><a href='單人與電腦對打.html'>單人與電腦對打</a><li><a href='電腦對打.html'>電腦對打</a></li></ul><li><a href='OnShape 繪製.html'>OnShape 繪製</a></li></ul><li><a href='送球機構模擬影片.html'>送球機構模擬影片</a><li><a href='導入程式過程影片.html'>導入程式過程影片</a><li><a href='期末報告.html'>期末報告</a><ul><li><a href='期末影片及評分.html'>期末影片及評分</a></li></ul></nav><section>零件繪製 << <a href='零件繪製.html'>Previous</a> <a href='影片操作過程及程式版本二.html'>Next</a> >> 影片操作過程及程式版本二<br /><h1>影片</h1>
-<p><a href="https://github.com/mdecadp2018/site-40623147/blob/gh-pages/%E6%9C%9F%E6%9C%AB%E5%BD%88%E7%8F%A0%E6%AA%AF/pinball.ttt">ttt檔案</a></p>
-<p>A鍵為控制左邊擊球桿，L鍵為控制右邊擊球桿，上鍵(up arrow)為控制發球桿。</p>
-<p><iframe width="560" height="314" src="//www.youtube.com/embed/2bHg1-oKyNs" allowfullscreen="allowfullscreen"></iframe></p>
+<div class='container'><nav><ul id='css3menu1' class='topmenu'><li><a href='簡介.html'>簡介</a><li><a href='期末彈珠檯.html'>期末彈珠檯</a><ul><li><a href='零件繪製.html'>零件繪製</a><li><a href='影片.html'>影片</a><li><a href='影片操作過程及程式版本二.html'>影片操作過程及程式版本二</a></li></ul><li><a href='期末課程內容.html'>期末課程內容</a><ul><li><a href='程式模擬.html'>程式模擬</a><ul><li><a href='鍵盤雙人對打.html'>鍵盤雙人對打</a><li><a href='單人與電腦對打.html'>單人與電腦對打</a><li><a href='電腦對打.html'>電腦對打</a></li></ul><li><a href='OnShape 繪製.html'>OnShape 繪製</a></li></ul><li><a href='送球機構模擬影片.html'>送球機構模擬影片</a><li><a href='導入程式過程影片.html'>導入程式過程影片</a><li><a href='期末報告.html'>期末報告</a><ul><li><a href='期末影片及評分.html'>期末影片及評分</a></li></ul></nav><section>影片 << <a href='影片.html'>Previous</a> <a href='期末課程內容.html'>Next</a> >> 期末課程內容<br /><h1>影片操作過程及程式版本二</h1>
+<p><iframe width="560" height="314" src="//www.youtube.com/embed/fIuPTY90ywY?feature=youtu" allowfullscreen="allowfullscreen"></iframe></p>
 <pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">import vrep
-import sys, math
-import keyboard 
-#導入鍵盤
+import keyboard
+import time
+import sys, math     
 # child threaded script: 
 # 內建使用 port 19997 若要加入其他 port, 在  serve 端程式納入
 #simExtRemoteApiStart(19999)
-  
+   
 vrep.simxFinish(-1)
-  
+ 
+ 
 clientID = vrep.simxStart('127.0.0.1', 19997, True, True, 5000, 5)
+KickBallV = 2000
+n=1
+R_KickBallVel = -(math.pi/180)*KickBallV
+B_KickBallVel = (math.pi/180)*KickBallV
 if clientID!= -1:
     print("Connected to remote server")
 else:
     print('Connection not successful')
     sys.exit('Could not connect')
-
-KickBallV = 360  
-R_KickBallVel = (math.pi/180)*KickBallV
-B_KickBallVel = -(math.pi/180)*KickBallV
-
+     
+errorCode,Sphere_handle=vrep.simxGetObjectHandle(clientID,'Sphere',vrep.simx_opmode_oneshot_wait)
+errorCode,P1_handle=vrep.simxGetObjectHandle(aclientID,'P1',vrep.simx_opmode_oneshot_wait)
 errorCode,R1_handle=vrep.simxGetObjectHandle(clientID,'R1',vrep.simx_opmode_oneshot_wait)
 errorCode,R2_handle=vrep.simxGetObjectHandle(clientID,'R2',vrep.simx_opmode_oneshot_wait)
-errorCode,P_handle=vrep.simxGetObjectHandle(clientID,'P',vrep.simx_opmode_oneshot_wait)
+ 
+ 
+vrep.simxSetJointTargetVelocity(clientID,P1_handle,0,vrep.simx_opmode_oneshot_wait)
 vrep.simxSetJointTargetVelocity(clientID,R1_handle,0,vrep.simx_opmode_oneshot_wait)
 vrep.simxSetJointTargetVelocity(clientID,R2_handle,0,vrep.simx_opmode_oneshot_wait)
-vrep.simxSetJointTargetVelocity(clientID,P_handle,0,vrep.simx_opmode_oneshot_wait)
-#定義平移軸旋轉軸
-
-def a1():
-    errorCode=vrep.simxSetJointTargetVelocity(clientID,R1_handle,R_KickBallVel,vrep.simx_opmode_oneshot_wait)
-def d1():    
-     errorCode=vrep.simxSetJointTargetVelocity(clientID,R2_handle,B_KickBallVel,vrep.simx_opmode_oneshot_wait)
-def w1():
-     errorCode=vrep.simxSetJointTargetVelocity(clientID,P_handle,1,vrep.simx_opmode_oneshot_wait)
-#定義平移軸及旋轉軸的速度
-
-
+ 
+def speed(handle,speed):
+    errorCode = vrep.simxSetJointTargetVelocity(clientID,handle,speed,vrep.simx_opmode_oneshot_wait)
+ 
 vrep.simxStartSimulation(clientID,vrep.simx_opmode_oneshot_wait)
-#開始
-
 while True:
     try:
-            if keyboard.is_pressed('a'):
-                a1()
-            elif keyboard.is_pressed('l'):
-                d1()
+            if keyboard.is_pressed('a'): 
+                speed(R1_handle,B_KickBallVel)
             else:
-                errorCode=vrep.simxSetJointTargetVelocity(clientID,R1_handle,B_KickBallVel,vrep.simx_opmode_oneshot_wait)
-                errorCode=vrep.simxSetJointTargetVelocity(clientID,R2_handle,R_KickBallVel,vrep.simx_opmode_oneshot_wait)
-            if  keyboard.is_pressed('up'):
-                w1()
+                speed(R1_handle,R_KickBallVel)
+            if keyboard.is_pressed('up'):  
+                speed(P1_handle,-500)
+            else: 
+                speed(P1_handle,500)
+ 
+            if keyboard.is_pressed('l'):  
+                speed(R2_handle,R_KickBallVel)
             else:
-                errorCode=vrep.simxSetJointTargetVelocity(clientID,P_handle,-1,vrep.simx_opmode_oneshot_wait)
+                speed(R2_handle,B_KickBallVel)
+ 
     except:
             break
-#執行按建</pre>
-<br />零件繪製 << <a href='零件繪製.html'>Previous</a> <a href='影片操作過程及程式版本二.html'>Next</a> >> 影片操作過程及程式版本二</section></div></body></html>
+</pre>
+<br />影片 << <a href='影片.html'>Previous</a> <a href='期末課程內容.html'>Next</a> >> 期末課程內容</section></div></body></html>
